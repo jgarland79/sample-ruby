@@ -1,5 +1,7 @@
 require 'sinatra'
 require 'cowsay'
+require 'auth0'
+
 
 port = ENV["PORT"] || "8080"
 configure { 
