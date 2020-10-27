@@ -13,3 +13,5 @@ gem "sinatra", "~> 2.0"
 gem "cowsay", "~> 0.3.0"
 
 gem "auth0", "~> 5.0"
+
+gem "jwt", "~> 2.2"

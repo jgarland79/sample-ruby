@@ -49,6 +49,7 @@ PLATFORMS
 DEPENDENCIES
   auth0 (~> 5.0)
   cowsay (~> 0.3.0)
+  jwt (~> 2.2)
   puma (~> 4.3)
   sinatra (~> 2.0)
 
