@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://auth0-sdk-tests.auth0.com/api/v2/users
+    body:
+      encoding: UTF-8
+      string: '{"email":"rubytest-rubytest-username@auth0.com","password":"KkScYmWePz","connection":"Username-Password-Authentication","name":"rubytest-username"}'
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.7.0 x86_64) ruby/2.5.1p57
+      Content-Type:
+      - application/json
+      Auth0-Client:
+      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjcuMCIsImVudiI6eyJydWJ5IjoiMi41LjEifX0=
+      Authorization:
+      - Bearer API_TOKEN
+      Content-Length:
+      - '147'
+      Host:
+      - auth0-sdk-tests.auth0.com
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Fri, 28 Jun 2019 19:21:57 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Ot-Tracer-Spanid:
+      - 5945836377b47fab
+      Ot-Tracer-Traceid:
+      - '00856f2e13bae885'
+      Ot-Tracer-Sampled:
+      - 'true'
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '9'
+      X-Ratelimit-Reset:
+      - '1561749719'
+      Vary:
+      - origin,accept-encoding
+      Cache-Control:
+      - private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15724800
+      X-Robots-Tag:
+      - noindex, nofollow, nosnippet, noarchive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA41R3WrDIBh9F6G9ahK1jdFA2Xqz68G2m41RrH5pZa0JajpG13efpl0pY4yBF0c9P5/HA4KdNFtUI9evPgL4kF1A78FZuYNb2YcNzlW7QxOUDq7Z36R4NTgt9+BMY0CjupFbDxPUd1oG0EsZoo5iIjLMMsofiagpqcsqFww/R3lyWpqoQ0PeZ6kJY1yXvFmtCMUgsSKiEiJSO6NC79IcmxA6XxeFz9dO7mWQLs1ZnGBB2VRhaMisBE6IpqxiRFURECFmnDc3fj7jeOzm3Xqs54PXaLoY0bu4lLb55eFxf7L0Ebk+7+w6dWHU288+fivGaLDBBAMe1S8HpFprQQXT2ih8OtOye+n9e+t0toihia/kQLku5q9KXLuPOe67vhTrH1pl5Pb8E8fXCVIO/vEXxy+A/S5FFgIAAA==
+    http_version: 
+  recorded_at: Fri, 28 Jun 2019 19:21:57 GMT
+recorded_with: VCR 4.0.0

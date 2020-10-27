@@ -1,0 +1,59 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://auth0-sdk-tests.auth0.com/api/v2/resource-servers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - rest-client/2.0.2 (darwin17.7.0 x86_64) ruby/2.5.1p57
+      Content-Type:
+      - application/json
+      Auth0-Client:
+      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjYuMCIsImVudiI6eyJydWJ5IjoiMi41LjEifX0=
+      Authorization:
+      - Bearer API_TOKEN
+      Host:
+      - auth0-sdk-tests.auth0.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 27 Feb 2019 20:44:25 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      X-Ratelimit-Limit:
+      - '10'
+      X-Ratelimit-Remaining:
+      - '8'
+      X-Ratelimit-Reset:
+      - '1551300267'
+      Vary:
+      - origin,accept-encoding
+      Cache-Control:
+      - private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Content-Encoding:
+      - gzip
+      Strict-Transport-Security:
+      - max-age=15724800
+      X-Robots-Tag:
+      - noindex, nofollow, nosnippet, noarchive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA72Y227jNhCGX4XQdRIf4kPsO6+zCII2RbDJoi0WAUFRlM01LQoi5SBd5N1LUWQsSxrJ2xbNlaOZ+TTzc0iR/PYj4FGwDKZkPCM305tRuLiek2k0mk5Gw+FkEVwECdkz47HK9XaIHkhCNmzPEo1Wj/fGyiPzm8ecZcZnq3WqloMBKXwvVbS71ExpdWX/v6JyPyApHxzGAxNIhJCvWMax4AnDhFKmVLCMiVDsIlA7nmIqE2XgOJYZPrDMvISEguGYZ0rjlGT6DVPBjccxTssdS7DgMdO8yHo0n02Gw2HdYJGvLAyW83FhVXyT8GSDidiYKr48jaczk6GiMmWG/e1HEDFFM55qLpPCgZEIre2r0V1GigQuggMReaFTZozLMi+8KY3vF3XC2nhpBjKoNfdSbplgHZTImnspX9OoK5fcmnspVpOvimUNLXL7EHxvPca9D4pyNdejXK1QlNO7HuV0hqKONaFVmqIHponJjbQWiEma4r336K4WolVL7+NVdYB4VVH6eFWFIF5Vrp/goWdOd6ytwQsS1s4K6L92U7x1hvX2M9jJvfMJnEm98xmcyT01ol/YG7SS7ApT39ytxZ/OXIBwuobUCKcrCEA4XctqhNOVDCCUGsgkYbR40tSgYoI1aI33GnQSvAatBK9BJ8Fr0ErwGnQSrAZfmJJ5Rhl6YtmhZSnNnB0rZwfV6CA5Sc5gOV06WE6cM1hOoQ6Wk+kMltXqlh244Riu3YGY739drch6YFrxAPXqpDnFzuI5zTp5TrWzeE63Tp5T7ixe2We5YM3msg/hjqrF+DYConzv1KJ8wwBRvktqUb41gKhjTcUMjPmmvbZiQ2mN3TW2MKq1dlCqNbdQqrV3UGw1n/eEC/SYyYPZYGf1clhhxam3gvWAFFdQL8dVBHJcSb0cN64gxw1wL+eTIHQnuNLoudjQV9UNvWmpSxOg7JMmzd2Esg+BiGeWmE2vWbG0NoeERqy2ZrNcOTM4GjDHDUc/yebzq2wmISTs/7TlTETNmt1jcLSacW6Y4EjXL81I1yhwpM10lcg9EW9mtdPllxJ9EpLuGqmT0g+HpRXM4wyeS6yX6Mcw45tN6/dUewvURc3Isn164uwOuv2U2XcwbA91FXef5O5ykkWcJCgmVEtzJCjXqzwj1queiPPGzhvWr85t6ngG6zRDlmRSiH3bIeGDVfUB5eohet3OY7o5dHRC7pyDYpl9vKo5t1rwfSek8sx2f/uIdH1R/DifYh6lGFwYXbIpUepVZhGiW0Z3ZglC32XYMv+9n/mKOUdsHEFhVTsYkSRCRAjEjSh+19ci+Nlvs2LQXGm5R5GZzjyptW3zYGGdsXOGO+NcqD8r9GHXDsBQwl5r9JaDQx/OFm6/nUizfSpMUKPU8tN6NMMdC3JOPtJdJDfXYdLJ9qOLZCt7yIXm5WqAilvIYnNLrfYolYJT3qx2HxP8YQMT/DmwS7oHbTM2M7dlfy0797z1GL/nBaJcZ9aj/B4TiHKF16P8/raMerkIuMLqTZmRCcz3KWcFqLwmDou/2Zhds+vRYrygCzKfjSJ6vCZ+ZmZzti47uuOGOMxys6ZdUZGHg7K/y6vh0X9/NVwU0LwZvikuhv/1vbAXsLjmXtrnxn4q+QoVRlQa31+OUtL5LJ6RxXw8YXR4PR9Ho+ENmYxPpSyPyZdZHr4VGEhOs2shYiuVviq8KlL6ChQz/aRNxPfHaBQNn38PN/P0twV/pH9E+k/9+f7+brWb/rXdr/n/djc/vp5MZ/9kCN5f/gYAZnj1txgAAA==
+    http_version: 
+  recorded_at: Wed, 27 Feb 2019 20:44:28 GMT
+recorded_with: VCR 4.0.0

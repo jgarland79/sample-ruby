@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://auth0-sdk-tests.auth0.com/samlp/metadata/2cnWuug6zaFX1j0ge1P99jAUn0F4XSuI
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - "*/*"
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby/2.5.1
+      Content-Type:
+      - application/json
+      Auth0-Client:
+      - eyJuYW1lIjoicnVieS1hdXRoMCIsInZlcnNpb24iOiI0LjUuMCJ9
+      Authorization:
+      - Bearer API_TOKEN
+      Host:
+      - auth0-sdk-tests.auth0.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 10 Oct 2018 23:19:59 GMT
+      Content-Type:
+      - application/xml; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      X-Auth0-Requestid:
+      - 261a63e06dbf0b769d6f
+      Content-Disposition:
+      - attachment; filename="auth0-sdk-tests_auth0_com-metadata.xml"
+      Cache-Control:
+      - private, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+      Strict-Transport-Security:
+      - max-age=15724800
+      X-Robots-Tag:
+      - noindex, nofollow, nosnippet, noarchive
+      Content-Encoding:
+      - gzip
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA81X25KiSBB9368weh+NbgoVb9HTEcVNkXuDiryVgFCKoFQB6tcvavfsTkfMxF56dzbCBzxknspDZhySZymjmJ7FiAQFPtC8aEU3QBG/PJRFNkYlTcAjCXePNCKUPN3+PwX5/qF12qcZuUfliGAyztA+ImMajB2oa+POExjvI4pCRNHDyy+t1rMiWo5j/uGoQ5HTPMhTpzwc8oJKWbmPCkRxnv2Y9j3vRtsQq9EfBZQk+vJAcJzhLH6LuMco2SZ/rzqh9DBmmLqun+ruU17ETAcAwIAR0wSETfavX1ObZI8DI7HR8Tv0BgpRQfEGB4hGL7qiiKIrCHCzjGGt8DBWZmtuHR6BqIUGHegQTATnOHGUdVe0JV6o51AX7JOyhTEfGwse6u5kKbPhJK41z9ihMwt8zwDBmUtC7zXXBW677oB6mgSG7gYnfQtZ3bVrU1TA8opdpOZaAl+xLdzpjlIrcCUubFuUTukbD3vxJ4SGk8UlnOrlylsAJMJy1RnRRgPf1GPw8e6Y7PBkVAMe2pIMoSlAewiv94VYba4lWBz5dCQla6poTIzOKZtAA2nzmepMS/0Aqmp1sgcT0kU5L3QWm4Qh8ll6BcJUU9LUx/7aXUsgCg77/vSc28ap0xEjlG7kU5897b2B8Lrz4618KLrd/ZIlO67cdVHNYHa55JP1frFPEHMuA6dOZH7braDcI4rgZIvpRgq9EbsUqBae83IR9nZAMaxDTakVyqzIzPv89NKHldIJB2DpMMOOyiFWcq2SrXze7/kjqnH7bTXlVXaYzPaBHaSGFaB1ZHMDgsvjydJ2WtVOj5ZZkkvHDvCMr2t56liYcQ5r4QIEly6x56zOuyB2MBW4rjc7v5JpNlczv9MrTX/U9uBKL7aC4a4C0/I9aet6eLS0FRHakM+BUtsitK5zMX3VebgZSrwLm3tTRufBBLLzUIztJc+7fHIJdNq3/HUvsRYM4AeVms2yGcYiNG/59vCe30wbzO1atFczNfeVpAqMpo8ab0MxjpvbsjTwM1nAbSRbakmqjW/FXHtYeQtW1Ez9lO7EkBkAnjPmyOsfBkbptQGi82wF2/bI6nMSnJvnwq6XkeR0gAZLXNnDQdBj28ax55nqYLNTUy81TZ+llwoTuNUihSfaiFI3X1Vuu7c+sKxaZyPRlT2+PTgDuPcMwXEV3h2IJyZP0NBzluj1MExX5FKgwfKkFubsuJW4PpJcJ511qH48gwocha0iVYrV3g7VnB2p1oqd4WqeVqXanTE8Tww2Ro5mjgyzD6rMGZQod0KcFlx1mXdzZ6B7l8zqZheukvpuJpXtgsGJMMHCwpg7ar6eKqJQ9LmLFtZ6BRientJoR0xXlAHp0Da00wjP/Gz15Zn56BS/Gwvz0VmemTejerM25htvewOdxtnSSMvjvKROVFQ4iFo8zsIG/rFxru9BZDx1XevxNQpxEQX0oaXlwZvtXn2RNMb4Xd9nCNqnB6YTZMuyjPsXJHvsFsQRa41GWzjPgNzznFJh0lt1D8znlmyZjvtflGs0dSiinBd7RF++Vx77xN4QHD5ubpHjaI9wCsOwiAh5Zr4h+Qu8V9nf8h6iogmjzav5M1lpgTKCv0d675jTvEfN7H86ZB+m6x/X+m9N19c6IaUFXpc0al0f+NcthARJMznkqVk9SI4Ot3WkJteNhGOaHw7vOxkTpAjvCXObMnSfsocb071xP5aKmrOv6Hv3ywI/tOSi6X+Ynu/lSI96w9yC79R/YsNDhFyNLc8+WWOMqyi7HvepAidX1hvhTxX36bp+uiJSFp8uynnn/MmdumMbHBWf3rOWIv4dec/Mx0+pl1+emY9fci+/AbajGxzcDQAA
+    http_version: 
+  recorded_at: Wed, 10 Oct 2018 23:19:59 GMT
+recorded_with: VCR 4.0.0
